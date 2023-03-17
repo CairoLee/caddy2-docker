@@ -34,7 +34,7 @@ RUN set -eux; \
 	caddy version
 
 # 安装需要的 caddy 包
-# RUN caddy add-package github.com/caddyserver/transform-encoder
+RUN caddy add-package github.com/caddyserver/transform-encoder
 
 # -----------------------------------------------------------------------------------------
 # 以下的一些初始化设置参考自
